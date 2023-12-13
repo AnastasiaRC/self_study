@@ -1,0 +1,59 @@
+[
+  {
+    "model": "users.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$BDvxYNSYpOkshe2mBll2IZ$lxiGjwTMcEiyZF3siokzZgYK/IX5Yzq6m+/KBVC1UQE=",
+      "last_login": "2023-12-13T02:10:52.340Z",
+      "is_superuser": true,
+      "is_staff": true,
+      "date_joined": "2023-12-13T02:06:49.498Z",
+      "email": "admin@study.ru",
+      "last_name": "Admin",
+      "first_name": "Admin",
+      "image": "",
+      "role": null,
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$dc9FdicAwu4zlpcROp8RlY$ddmfQqEtsYqIPN4v2LDj7wzVdcm73Yl/WbzTM3P+wr8=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "date_joined": "2023-12-13T02:06:49.621Z",
+      "email": "author@study.ru",
+      "last_name": "Author",
+      "first_name": "Author",
+      "image": "",
+      "role": "AUTHOR",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "users.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$BZWUHInIu4VHodVpgIm91M$3Eh8zGQLOOoaa9x8qE7Dtj9vvN49T8o/qtE5xyN1r5w=",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": true,
+      "date_joined": "2023-12-13T02:06:49.729Z",
+      "email": "moderator@study.ru",
+      "last_name": "Moderator",
+      "first_name": "Moderator",
+      "image": "",
+      "role": "MODERATOR",
+      "is_active": true,
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
