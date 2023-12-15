@@ -246,11 +246,10 @@ admin. Проверка ответа на тест осуществляется 
 9. Создаем и применяем миграции
    - python3 manage.py makemigrations
    - python3 manage.py migrate
-10. Загрузить данные из файлов json
-    - python3 manage.py loaddata study.json
+10. Загрузить данные из файлов json 
     - python3 manage.py loaddata users.json
+    - python3 manage.py loaddata study.json
 11. Запустить сервер
     - python3 manage.py runserver
 12. Для запуска теста используйте команду:
     - python3 manage.py full
-
